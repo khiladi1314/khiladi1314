@@ -1,5 +1,5 @@
 module "vpc" {
-  source                      = "git@github.com:MyGurukulam-P8/Infrastructure_as_a_Code.git//Dev_Infrastructure/tf_static/network_skeleton?ref=Dev"
+  source                      = "/network_skeleton?ref=Dev"
   region                     = "us-east-2"
   vpc-cidir-block             = var.vpc-cidir-block2
   vpc_tags                    = var.vpc_tags2
