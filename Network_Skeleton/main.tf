@@ -1,5 +1,5 @@
 module "vpc" {
-  source                      = "/network_skeleton?ref=Dev"
+  source                      = "github.com/khiladi1314/khiladi1314/tree/main/network_skeleton/network_skeleton?ref=Dev"
   region                     = "us-east-2"
   vpc-cidir-block             = var.vpc-cidir-block2
   vpc_tags                    = var.vpc_tags2
